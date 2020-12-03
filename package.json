@@ -16,7 +16,7 @@
     "@react-navigation/native": "^5.8.10",
     "@react-navigation/stack": "^5.12.8",
     "amazon-cognito-identity-js": "^4.5.5",
-    "aws-amplify": "^3.3.10",
+    "aws-amplify": "^3.3.11",
     "aws-amplify-react-native": "^4.2.9",
     "react": "16.13.1",
     "react-native": "0.63.3",
