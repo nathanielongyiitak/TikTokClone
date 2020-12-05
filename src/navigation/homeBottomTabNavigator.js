@@ -8,6 +8,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import plusIcon from '../assets/images/plus-icon.png';
+import Camera from '../screens/Camera';
 
 const Tab = createBottomTabNavigator();
 
@@ -40,7 +41,7 @@ const HomeBottomTabNavigator = () => {
       </Tab.Screen>
       <Tab.Screen
         name="Upload"
-        component={Home}
+        component={Camera}
         options={{
           tabBarIcon: ({color}) => (
             <Image
